@@ -46,10 +46,10 @@ public class Lab1Test {
 	
 	@Test
 	public void testReverse(){
-		String original = "Konstantin";
+		String original = "Linnea";
 		String result = lab.reverse(original);
 		assertNotEquals(result, original);
-		assertEquals(result, "nitnatsnoK");
+		assertEquals(result, "aenniL");
 	
 	}
 	
